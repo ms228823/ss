@@ -1,0 +1,157 @@
+@media(min-width:600px){
+    body{ background-color: rgb(150, 141, 15);}
+}
+@media(max-width:599px) {
+    body{background-color: rgba(0, 172, 252, 0.795);}
+    
+}    
+* {padding: 0%;
+    margin: 0%;
+    
+}
+
+/*html, body, * {
+    margin: 0px;
+    padding: 0px;
+    font: 12/16px Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+
+}*/
+
+
+.datalist-holder {
+    padding: 10px;
+    min-width: 160px;
+    min-height: 16px;
+    position: relative;
+}
+
+.datalist-input {
+    /*
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+    width: 16px;
+    height: 16px;
+    */
+    cursor: pointer;
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+    background: url('D:\محمد\MOSAMO OPTICS\images\control_play_blue.png') right top no-repeat;
+}
+
+.datalist-input:hover {
+    background-image: url('D:\محمد\MOSAMO OPTICS\images\control_fastforward_blue.png');
+}
+input[type ="submit"]{ color: rgb(16, 138, 16);}
+input[type ="submit"]:hover{ color: rgb(138, 81, 16);}
+
+
+button{
+    background-color: #668cff;
+    position: relative;
+    top: 50px;
+    left: 0%;
+    width: 200px;
+    height: 50px;
+    border: 0px;
+}
+
+button:hover{background-color: #7dcde8;}
+
+#footer{background-color: #1b4b43c0;
+width: 100%;
+height: 300px;
+}
+#footer a {color: rgb(29, 122, 26);}
+#icon {color: #ffffff;font-size: 30pt;}
+#box{
+       border: 10px solid cadetblue;
+       margin: 80px;
+       text-align: center;
+       width: 700px;
+       height: 500px;
+       position:relative ;
+       top: 0.2px;
+       left: 210px;
+       top: 0;
+       background-color: #66ffb3;
+
+}
+/*#nmemail{font-size: 20pt;
+        color: rgb(255, 255, 255);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}*/
+#email{
+    padding: 5px;
+color: #ffffff;
+    left: 50%;
+font-size: 15pt;
+
+    
+}
+#email label{
+    font-size: 20pt;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}s
+
+   
+#password{
+color: #ffffff;
+left: 50%;
+font-size: 15pt;
+}
+#password{    font-size: 20pt;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#countries{
+font-size: 15pt;
+color: #ffffff;
+left: 50%;
+
+}
+
+#gender{color: #ffffff;
+font-size: 15pt;}
+.entries{
+    padding: 5px;
+    font-size: 15pt;
+
+}
+#head{
+    background-color: #1414149a;
+    height: 150px;
+    width: 100%;
+}
+#namehead {font-size: 20pt;
+color:#ffffff;
+text-decoration: none;
+display: block;
+
+}
+/*#homename{text-align: left; border: 0px;margin: 5px;padding: 5px;color: rgb(146, 146, 146);left: 20px;}*/
+
+#menu{padding: 0;
+    margin: 0;background-color: 	#abbab5;    width: 100%;
+    height: 58px;
+}
+
+nav{
+
+    
+}
+ul{
+}
+ul li {
+    list-style: none;display:inline-block ; font-size: 15pt; float: left ;line-height: 80px;
+
+}
+
+ul li a {
+text-decoration: none;font-family: serif;color: #fff5f5;padding: 0 30px;display: block;
+}
